@@ -1,0 +1,22 @@
+
+Domain enumeration, bir organizasyona ait alan adlarını, alt alan adlarını (subdomains) ve ilgili kayıtları tespit etme sürecidir. Siber güvenlikte, penetration testing ve ethical hacking çalışmalarında yaygın olarak kullanılan bir bilgi toplama (reconnaissance) tekniğidir.
+
+Amaçları:
+	Saldırgan Perspektifinden: Hedef sistem hakkında daha fazla bilgi toplamak, açıkta kalan veya yanlış yapılandırılmış servisleri tespit etmek ve potansiyel giriş noktalarını belirlemek.
+	Savunma Perspektifinden: Organizasyonun dış dünyaya açık olan varlıklarını görmek, yanlış yapılandırılmış DNS kayıtlarını ve gereksiz açık servisleri tespit etmek.
+
+Aşağıdaki sitelerden hedef domain hakkında domain enumeration yapılabilir.
+centralops.net
+whois.com
+robtex.com
+
+Komutlar ile Domain ve DNS Enumeration
+
+1)whois teknosa.com
+2)ping teknosa.com (ip adresini gösterir)
+3)nslookup teknosa.com
+4)dig n11.com veya dig -t ns n11.com +short (dns sorguları için) 
+5)dnsrecon -d n11.com
+6)dnsenum n11.com
+7)fierce --domain teknosa.com (subdomainleri bulur.)
+
